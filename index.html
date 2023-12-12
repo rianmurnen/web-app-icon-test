@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web App Icon Test</title>
+
+	<link rel="manifest" href="/manifest.json">
+</head>
+<body>
+<h1>Web App Icon Test</h1>
+
+<h2>Setup</h2>
+
+<p>In the <code>&lt;head&gt;</code>:</p>
+<pre>
+	<code>&lt;link rel="manifest" href="/manifest.json"&gt;</code>
+</pre>
+
+<h2>Web App Manifest:</h2>
+
+<pre><code>
+{
+	"src": "/app-icon.svg",
+	"sizes": "1024x1024",
+	"type": "image/svg+xml",
+	"purpose": "maskable"
+}
+</code></pre>
+
+<h2>The Icon</h2>
+
+<p>The SVG includes a <code>prefers-color-scheme</code> declaration.</p>
+
+<img alt="two crossed lines forming an “x” (figure) within a circular safe-zone, on a solid background fill."
+	src="app-icon.svg"
+	width="48"
+	height="48"
+>
+
+<h2>Questions</h2>
+<ol>
+	<li>Does Safari accept an SVG favicon in the Web App manifest?</li>
+	<li>Does Safari accept any filename?</li>
+	<li>Does Safari acknowledge the <code>prefers-color-scheme</code> declaration?</li>
+</ol>
+</body>
+</html>

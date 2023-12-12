@@ -1,0 +1,13 @@
+{
+	"name": "Web App Icon Test",
+	"short_name": "Test",
+	"start_url": ".",
+	"icons":[
+		{
+			"src": "/app-icon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "maskable"
+		}
+	]
+}

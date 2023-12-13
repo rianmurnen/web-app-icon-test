@@ -38,7 +38,8 @@
 		{
 			"src": "/app-icon-1024x1024.svg",
 			"sizes": "any",
-			"type": "image/svg+xml"
+			"type": "image/svg+xml",
+			"purpose": "maskable"
 		}
 	]
 }

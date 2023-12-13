@@ -36,7 +36,7 @@
 			"type": "image/png"
 		},
 		{
-			"src": "/app-icon-1024x1024.png",
+			"src": "/app-icon-1024x1024.svg",
 			"sizes": "any",
 			"type": "image/svg+xml"
 		}

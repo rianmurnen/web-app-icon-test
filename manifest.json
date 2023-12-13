@@ -1,7 +1,31 @@
 {
 	"name": "Web App Icon Test",
 	"short_name": "Test",
+	"description": "Testing different combinations of favicon, Web App Manifest, and SVG icons.",
+	"screenshots": [
+		{
+			"src": "/screenshot-1200x628.svg",
+			"sizes": "1200x628",
+			"type": "image/svg+xml",
+			"platform": "wide",
+			"label": "Featured Image"
+		},
+		{
+			"src": "/screenshot-1200x628.webp",
+			"sizes": "1200x628",
+			"type": "image/webp",
+			"platform": "wide",
+			"label": "Featured Image"
+		}
+	],
+	"categories": [""],
 	"start_url": ".",
+	"display": "standalone",
+	"orientation": "any",
+	"dir": "ltr",
+	"lang": "en-US",
+	"theme_color": "",
+	"background_color": "",
 	"icons":[
 		{
 			"src": "/app-icon.svg",

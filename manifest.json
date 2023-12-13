@@ -21,16 +21,21 @@
 	"background_color": "#333",
 	"icons":[
 		{
-			"src": "/app-icon.svg",
+			"src": "/favicon.svg",
 			"sizes": "any",
 			"type": "image/svg+xml",
 			"purpose": "maskable"
 		},
 		{
-			"src": "/app-icon.svg",
+			"src": "/favicon.svg",
 			"sizes": "any",
 			"type": "image/svg+xml",
 			"purpose": "any"
+		},
+		{
+			"src": "/apple-touch-icon.svg",
+			"sizes": "180x180",
+			"type": "image/png"
 		}
 	]
 }

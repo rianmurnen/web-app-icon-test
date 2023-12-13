@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+	<style>
+		@media (prefers-color-scheme: dark) {
+			.background { fill: #ccc }
+			.safezone { fill: #333 }
+			.figure { fill: #eee }
+		}
+	</style>
+
+	<path class="background" d="M0 0h1024v1024H0z" fill="#333"/>
+	<circle class="safezone" cx="512" cy="512" r="409.5" fill="#ccc"/>
+	<path class="figure" d="m222.37 367.183 144.814-144.815L801.63 656.815 656.816 801.63z" fill="#111"/>
+	<path class="figure" d="M222.37 656.817 656.815 222.37l144.815 144.815-434.447 434.447z" fill="#111"/>
+</svg>

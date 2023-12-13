@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+	<style>
+		@media (prefers-color-scheme: dark) {
+			.background { fill: #ccc }
+			.safezone { fill: #333 }
+			.figure { fill: #eee }
+		}
+	</style>
+
+	<path class="background" d="M0 0h1024v1024H0z" fill="#333"/>
+	<circle class="safezone" cx="512" cy="512" r="409.5" fill="#ccc"/>
+	<text class="figure" transform="translate(287.338 762.908)" fill="#111" font-family="system-ui, sans-serif" font-size="768" font-weight="900"><tspan x="0" y="0">D</tspan></text>
+</svg>
